@@ -23,7 +23,7 @@ jobs:
           root: .
           paths:
             - build
-test:
+  test:
     # Remove if parallelism is not desired
     parallelism: 2
     environment:
